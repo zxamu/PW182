@@ -12,8 +12,6 @@
 <body>
 
   @include('partials.scrollspy');
-
-  @yield('contenido')
     
 </body>
 </html>

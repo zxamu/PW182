@@ -13,19 +13,20 @@
   <div class="col-8">
     <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
       <div id="item-1">
-        @yield('contenido')
+        <h4>Inicio</h4>
+        @yield('contenido1')
       </div>
       <div id="item-2">
-        <h4>Item 2</h4>
-        <p>...</p>
+        <h4>Vista 1</h4>
+        @yield('contenido2')
       </div>
       <div id="item-3">
-        <h4>Item 3</h4>
-        <p>...</p>
+        <h4>Vista 2</h4>
+        @yield('contenido3')
       </div>
       <div id="item-4">
-        <h5>Item 3-1</h5>
-        <p>...</p>
+        <h4>Vista 3</h4>
+        @yield('contenido4')
       </div>
     </div>
   </div>
